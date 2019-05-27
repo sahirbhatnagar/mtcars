@@ -14,11 +14,11 @@
 #'  \code{\link[lme4]{glmer}}
 #'  \code{\link[sjPlot]{tab_model}}
 #' @rdname fit_models
-#' @export 
 #' @importFrom lme4 glmer
 #' @importFrom sjPlot tab_model
 fit_models <- function(formula, data) {
   
+  tj <- NULL
   fit.glmm <- lme4::glmer(formula, 
                           data = data, 
                           family = "poisson", 
