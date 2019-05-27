@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sahirbhatnagar/mtcars.svg?branch=master)](https://travis-ci.org/sahirbhatnagar/mtcars)
+
 # mtcars
 
 The goal of mtcars is to ...
