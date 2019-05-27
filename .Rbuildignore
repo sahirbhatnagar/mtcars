@@ -1,3 +1,4 @@
+^appveyor\.yml$
 ^data-raw$
 ^\.travis\.yml$
 ^LICENSE\.md$
